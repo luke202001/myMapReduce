@@ -1,0 +1,12 @@
+D:\myMapReduce\src\main\java\com\mybigdata\clickstream\PageViews.java
+D:\myMapReduce\src\main\java\com\mybigdata\dataparser\SessionParser.java
+D:\myMapReduce\src\main\java\com\mybigdata\clickstream\logSession.java
+D:\myMapReduce\src\main\java\com\mybigdata\javabean\WebLogBean.java
+D:\myMapReduce\src\main\java\com\mybigdata\dataparser\WebLogParser.java
+D:\myMapReduce\src\main\java\com\mybigdata\javabean\WebLogSessionBean.java
+D:\myMapReduce\src\main\java\com\mybigdata\dataparser\VisitsInfoParser.java
+D:\myMapReduce\src\main\java\com\mybigdata\clickstream\VisitsInfo.java
+D:\myMapReduce\src\main\java\com\mybigdata\dataparser\PageViewsParser.java
+D:\myMapReduce\src\main\java\com\mybigdata\javabean\PageViewsBean.java
+D:\myMapReduce\src\main\java\com\mybigdata\clickstream\logClean.java
+D:\myMapReduce\src\main\java\com\mybigdata\javabean\VisitsInfoBean.java

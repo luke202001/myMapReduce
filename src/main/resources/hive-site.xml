@@ -1,0 +1,66 @@
+<configuration>
+    <property>
+          <name>hive.metastore.uris</name>
+          <value>thrift://192.168.1.161:9083</value>
+    </property>
+    <property>
+            <name>javax.jdo.option.ConnectionURL</name>
+            <value>jdbc:mysql://192.168.1.161:3306/hive?createDatabaseIfNotExist=true</value>
+            <description>JDBC connect string for a JDBC metastore</description>    
+    </property>   
+    <property> 
+            <name>javax.jdo.option.ConnectionDriverName</name> 
+            <value>com.mysql.jdbc.Driver</value> 
+            <description>Driver class name for a JDBC metastore</description>     
+    </property>               
+    <property> 
+            <name>javax.jdo.option.ConnectionUserName</name>
+            <value>hive</value>
+            <description>username to use against metastore database</description>
+    </property>
+    <property>  
+            <name>javax.jdo.option.ConnectionPassword</name>
+            <value>hive</value>
+            <description>password to use against metastore database</description>  
+    </property>
+    <property>
+            <name>hive.metastore.warehouse.dir</name>
+            <value>hdfs://mycluster/user/hive/warehousedir</value>
+    </property>
+     <property>
+            <name>hive.exec.scratchdir</name>
+            <value>hdfs://mycluster/user/hive/scratchdir</value>
+     </property>
+
+     <property>
+            <name>hive.querylog.location</name>
+            <value>/data/hive/logs</value>
+     </property>
+
+
+     <property>
+                 <name>mapred.job.reuse.jvm.num.tasks</name>
+                             <value>20</value>
+                                  </property>
+
+<property>
+    <name>hive.support.concurrency</name>
+        <value>true</value>
+        </property>
+        <property>
+            <name>hive.exec.dynamic.partition.mode</name>
+                <value>nonstrict</value>
+                </property>
+                <property>
+                    <name>hive.txn.manager</name>
+                        <value>org.apache.hadoop.hive.ql.lockmgr.DbTxnManager</value>
+                        </property>
+                        <property>
+                            <name>hive.compactor.initiator.on</name>
+                                <value>true</value>
+                                </property>
+                                <property>
+                                    <name>hive.compactor.worker.threads</name>
+                                        <value>1</value>
+                                        </property>
+</configuration>
